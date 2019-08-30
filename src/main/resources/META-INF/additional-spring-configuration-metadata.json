@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "paytm.payment.sandbox.merchant-id",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.merchant-id'"
+  },
+  {
+    "name": "paytm.payment.sandbox.callback-url",
+    "type": "java.lang.String",
+    "description": "A description for 'paytm.payment.sandbox.callback-url'"
+  }
+]}
