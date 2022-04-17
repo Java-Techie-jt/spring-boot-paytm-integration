@@ -1,11 +1,11 @@
 paytm.payment:
   sandbox:
-    merchantId: {generate your own merchantId}
-    merchantKey: {generate your merchantKey}
+    merchantId:
+    merchantKey:
     channelId: WEB
-    website: WEBSTAGING
+    website: DEFAULT
     industryTypeId: Retail
-    paytmUrl:  https://securegw-stage.paytm.in/order/process
+    paytmUrl: https://securegw.paytm.in/order/process
     callbackUrl: http://localhost:9090/pgresponse
     details:
       MID: ${paytm.payment.sandbox.merchantid}
